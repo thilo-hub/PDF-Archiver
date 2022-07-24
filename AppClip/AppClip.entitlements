@@ -8,11 +8,11 @@
 	</array>
 	<key>com.apple.developer.parent-application-identifiers</key>
 	<array>
-		<string>$(AppIdentifierPrefix)de.JulianKahnert.PDFArchiveViewer</string>
+		<string>$(AppIdentifierPrefix)com.nispuk.PDFArchiveViewer</string>
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.PDFArchiverShared</string>
+		<string>group.nispuk</string>
 	</array>
 </dict>
 </plist>

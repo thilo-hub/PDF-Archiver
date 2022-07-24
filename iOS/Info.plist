@@ -4,7 +4,7 @@
 <dict>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>de.JulianKahnert.PDFArchiveViewer.pdf-processing</string>
+		<string>com.nispuk.PDFArchiveViewer.pdf-processing</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
@@ -36,7 +36,7 @@
 	<string>$(PRODUCT_NAME) uses the camera to scan documents.</string>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.de.JulianKahnert.PDFArchiver</key>
+		<key>iCloud.nispuk.com</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>

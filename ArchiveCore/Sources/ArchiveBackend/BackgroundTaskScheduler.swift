@@ -39,9 +39,9 @@ public protocol BackgroundTaskExecutionDelegate: AnyObject {
 }
 
 /// - NOTE: To simulate the execution of a background task, use the following:
-///         e -l objc -- (void)[[BGTaskScheduler sharedScheduler] _simulateLaunchForTaskWithIdentifier:@"de.JulianKahnert.PDFArchiveViewer.pdf-processing"]
+///         e -l objc -- (void)[[BGTaskScheduler sharedScheduler] _simulateLaunchForTaskWithIdentifier:@"com.nispuk.PDFArchiveViewer.pdf-processing"]
 ///         To simulate the expiration of a background task, use the following:
-///         e -l objc -- (void)[[BGTaskScheduler sharedScheduler] _simulateExpirationForTaskWithIdentifier:@"de.JulianKahnert.PDFArchiveViewer.pdf-processing"]
+///         e -l objc -- (void)[[BGTaskScheduler sharedScheduler] _simulateExpirationForTaskWithIdentifier:@"com.nispuk.PDFArchiveViewer.pdf-processing"]
 @available(iOS 13.0, *)
 @available(macOS, unavailable)
 public final class BackgroundTaskScheduler: Log {
